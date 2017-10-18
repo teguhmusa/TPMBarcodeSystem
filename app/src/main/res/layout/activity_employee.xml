@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MasterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/textViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+
+        </FrameLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:id="@+id/frameLayout1"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btn_scan_now"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:onClick="scanID"
+                    android:text="SCAN ID" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:id="@+id/frameLayout2"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:onClick="enterID"
+                    android:text="ENTER" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5" />
+
+    </LinearLayout>
+
+</RelativeLayout>

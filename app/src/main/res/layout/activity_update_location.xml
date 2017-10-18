@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teguhmusaharpa.tpmbarcodesystem.UpdateLocationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Resume" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor EAM Mesin:" />
+
+        <EditText
+            android:id="@+id/eamEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Lokasi mesin saat ini" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Lokasi Baru" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"/>
+
+        <Button
+            android:id="@+id/scanButtonUploc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="scanUploc_OnClick"
+            android:text="SCAN" />
+
+        <Button
+            android:id="@+id/updateButtonUploc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="updateUploc_OnClick"
+            android:text="UPDATE" />
+
+    </LinearLayout>
+</RelativeLayout>

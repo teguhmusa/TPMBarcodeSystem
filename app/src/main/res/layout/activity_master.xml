@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MasterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btn_scan_now"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:onClick="scanNow"
+                android:text="MASTER KEY"
+                android:layout_weight="0.44" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

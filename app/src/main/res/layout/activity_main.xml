@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teguhmusaharpa.tpmbarcodesystem.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/menu1"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/truck"
+                    app:civ_border_color="@color/colorPrimaryDark"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/menu2"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/truck"
+                    app:civ_border_color="@color/colorPrimaryDark"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/menu3"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/truck"
+                    app:civ_border_color="@color/colorPrimaryDark"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/menu4"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/truck"
+                    app:civ_border_color="@color/colorPrimaryDark"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/menu5"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/truck"
+                    app:civ_border_color="@color/colorPrimaryDark"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/menu6"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/truck"
+                    app:civ_border_color="@color/colorPrimaryDark"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

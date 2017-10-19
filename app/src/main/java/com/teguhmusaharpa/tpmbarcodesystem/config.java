@@ -6,12 +6,12 @@ package com.teguhmusaharpa.tpmbarcodesystem;
 
 public class config {
 
-    public static final String URL_ADD="http://192.168.43.28/tpm/tambahData.php";
-    public static final String URL_GET_ALL = "http://192.168.43.28/tpm/tampilSemua.php";
-    public static final String URL_GET_EMP = "http://192.168.43.28/tpm/tampilPegawai.php?nik=";
-    public static final String URL_UPDATE_EMP = "http://192.168.43.28/tpm/updateLokasi.php";
-    public static final String URL_DELETE_EMP = "http://192.168.43.28/tpm/deleteData.php?nik=";
-    public static final String URL_GET_LOCATION = "http://192.168.43.28/tpm/tampilLokasi.php?location=";
+    public static final String URL_ADD="http://192.168.43.125/tpm/tambahData.php";
+    public static final String URL_GET_ALL = "http://192.168.43.125/tpm/tampilSemua.php";
+    public static final String URL_GET_EMP = "http://192.168.43.125/tpm/tampilPegawai.php?nik=";
+    public static final String URL_UPDATE_EMP = "http://192.168.43.125/tpm/updateLokasi.php";
+    public static final String URL_DELETE_EMP = "http://192.168.43.125/tpm/deleteData.php?nik=";
+    public static final String URL_GET_LOCATION = "http://192.168.43.125/tpm/tampilLokasi.php?location=";
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_EMP_NIK = "nik";

@@ -25,7 +25,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".CaptureActivity" />
         <activity android:name=".EmployeeActivity" />
-        <activity android:name=".InventoryActivity"></activity>
+        <activity android:name=".InventoryActivity" />
+        <activity android:name=".ShowInventoryActivity" />
+        <activity android:name=".DetailMesinActivity"></activity>
     </application>
 
 </manifest>

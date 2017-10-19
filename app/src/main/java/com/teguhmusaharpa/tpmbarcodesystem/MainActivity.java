@@ -9,7 +9,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    CircleImageView menu1;
+    CircleImageView menu1, menu2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), UpdateLocationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        menu2 = (CircleImageView) findViewById(R.id.menu2);
+        menu2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), InventoryActivity.class);
                 startActivity(intent);
             }
         });

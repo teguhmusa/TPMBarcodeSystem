@@ -11,6 +11,7 @@ public class config {
     public static final String URL_GET_EMP = "http://192.168.43.28/tpm/tampilPegawai.php?nik=";
     public static final String URL_UPDATE_EMP = "http://192.168.43.28/tpm/updateLokasi.php";
     public static final String URL_DELETE_EMP = "http://192.168.43.28/tpm/deleteData.php?nik=";
+    public static final String URL_GET_LOCATION = "http://192.168.43.28/tpm/tampilLokasi.php?location=";
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_EMP_NIK = "nik";
@@ -25,8 +26,15 @@ public class config {
     public static final String TAG_STATUS = "status";
     public static final String TAG_LEVEL = "level";
 
+    public static final String TAG_MESINID = "mesinid";
+    public static final String TAG_SERIAL = "serial";
+    public static final String TAG_LOCATION = "location";
+    public static final String TAG_DATAUPDATE = "dataupdate";
+
 
     //ID karyawan
     //emp itu singkatan dari Employee
     public static final String EMP_ID = "emp_id";
+    public static final String MSN_ID = "msn_id";
+    public static final String LOCATION = "location";
 }
